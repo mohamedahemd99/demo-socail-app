@@ -1,0 +1,54 @@
+name: social_app
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  http:
+  flutter_spinkit:
+  sqflite:
+  intl:
+  conditional_builder:
+  bloc:
+  flutter_bloc:
+  dio:
+  shared_preferences:
+  webview_flutter:
+  smooth_page_indicator:
+  fluttertoast:
+  carousel_slider:
+  image_picker:
+  #firebase
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  firebase_messaging:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Jannah
+      fonts:
+        - asset: assets/fonts/loew.otf
+          weight: 700
+
+    - family: IconBroken
+      fonts:
+        - asset: assets/fonts/icons.ttf
+
